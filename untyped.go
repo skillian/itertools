@@ -1,8 +1,11 @@
 package itertools
 
-// ArrayIterator iterates over an Arrayer.
+// ArrayIterator iterates over an Array.
 type ArrayIterator struct {
+	// Array holds an array of values to iterate over.
 	Array Arrayer
+
+	// Index is the index of the next value to return.
 	Index int
 }
 
