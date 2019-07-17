@@ -13,7 +13,7 @@ type Lener interface {
 // Arrayer wraps an array.
 type Arrayer interface {
 	// At gets a pointer to the i'th element and writes that pointer into
-	// the double-pointer: 00.
+	// the double-pointer: pp.
 	At(i int, pp interface{})
 
 	Caper
